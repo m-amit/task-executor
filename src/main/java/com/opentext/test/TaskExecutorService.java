@@ -62,6 +62,9 @@ public class TaskExecutorService implements Main.TaskExecutor {
         }
     }
 
+    /**
+     * Shutting down executor service
+     */
     public void shutdown() {
         executor.shutdown();
     }
